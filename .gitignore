@@ -1,0 +1,83 @@
+# ==========================================
+# SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# PYTHON ENVIRONMENT
+# ==========================================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# ==========================================
+# EDITOR AND OPERATING SYSTEM
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# LOGS AND TEMPORARY FILES
+# ==========================================
+*.log
+*.tmp
+*.temp
+
+# ==========================================
+# ORIGINAL NEWSPAPER PDFs
+# ==========================================
+Newspapers/Raw/
+
+# ==========================================
+# REGENERATED INTERMEDIATE DATA
+# ==========================================
+data/extracted_text/
+data/blocks/
+data/clean_blocks/
+data/rich_blocks/
+data/merged_blocks/
+data/inspection/
+data/page_layout_diagnostics/
+data/all_article_candidates/
+data/analyzed_articles/
+data/articles/
+data/classified/
+data/final_articles/
+data/grouped_articles/
+data/grouped_all_articles_v1/
+data/grouped_all_articles_v2/
+data/grouped_all_articles_v3/
+data/grouped_all_articles_v4/
+data/grouped_all_articles_v4_raw/
+data/hybrid_articles_v1/
+data/hybrid_articles_v2/
+data/hybrid_articles_v3/
+data/consolidated_articles_v1/
+data/curated_intelligence_v1/
+data/curated_intelligence_v2/
+data/curated_intelligence_v21/
+data/curated_intelligence_v22/
+data/curated_intelligence_v23/
+data/final_intelligence_v1/
+data/master_backups/
+
+# ==========================================
+# LOCAL ENVIRONMENT FILES
+# ==========================================
+.env.local
+
+# Generated intelligence databases and reports
+data/connections_bank_v1/
+data/connections_bank_v1_1/
+data/daily_intelligence_v1/
+data/daily_reports/
+data/government_intelligence_bank_v2/
+data/master_database_v1/
+data/placement_question_bank_v1/
+data/scheme_knowledge_bank_v1/
